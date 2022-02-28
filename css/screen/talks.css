@@ -1,0 +1,36 @@
+.starList-list_column:nth-child(3) {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  font-size: 12px;
+  width: 15%;
+  padding-right: 15px;
+}
+
+.talkInfo_time,
+.talkInfo_noti {
+  height: 25px;
+}
+
+@keyframes talkInfoNoti {
+  0% {
+    color: black;
+    transform: none;
+  }
+  50% {
+    color: aqua;
+    transform: scale(1.5, 1.5);
+  }
+  100% {
+    color: aqua;
+    transform: none;
+  }
+}
+.talkInfo_noti {
+  font-size: 15px;
+  animation: talkInfoNoti 0.5s infinite;
+  will-change: auto;
+}
+.talkInfo_time {
+  color: rgba(0, 0, 0, 0.5);
+}

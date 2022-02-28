@@ -1,0 +1,62 @@
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.login-main {
+  margin: 30px 0px;
+  font-size: 50px;
+  font-weight: 600;
+  position: relative;
+  margin-bottom: 50px;
+}
+
+@keyframes starRotate {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotate(720deg);
+    color: aqua;
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.login-main i {
+  color: black;
+  position: absolute;
+  top: -25px;
+  animation: starRotate 6s infinite;
+  will-change: transform;
+}
+form input {
+  width: 400px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login-info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+.login-info input::placeholder {
+  padding-left: 10px;
+}
+.login-btn {
+  margin: 5px 0px 10px 0px;
+  font-size: 15px;
+  transition: all 0.5s;
+}
+.login-btn:hover {
+  background-color: aqua;
+}

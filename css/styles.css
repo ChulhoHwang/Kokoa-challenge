@@ -1,0 +1,34 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;1,700&display=swap");
+/* components */
+@import "components/tooBigScreen.css";
+@import "components/statusbar.css";
+@import "components/variables.css";
+@import "components/user-header.css";
+@import "components/user-component.css";
+@import "components/userSmall-component.css";
+@import "components/nav-bar.css";
+/* screen */
+@import "screen/talks.css";
+@import "screen/store.css";
+@import "screen/talkroom.css";
+@import "screen/more.css";
+@import "screen/settings.css";
+@import "screen/friends.css";
+@import "screen/login.css";
+/* aaa */
+body {
+  height: auto;
+  background-color: white;
+  margin: 0;
+  padding-bottom: 60px;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+* {
+  box-sizing: border-box;
+}
+.contents {
+  padding: 15px;
+}

@@ -1,0 +1,71 @@
+.talkroom_header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  top: 20px;
+  width: 100%;
+  padding: 20px 10px;
+  font-size: 20px;
+  background-color: white;
+}
+.talkroom_header-column {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.talkroom_header-column:first-child {
+  justify-content: flex-start;
+}
+.talkroom_header-column:last-child {
+  justify-content: flex-end;
+}
+.talkroom_header-column span,
+i {
+  margin: 0px 8px;
+}
+.talkroom_header-column span {
+  font-weight: 600;
+}
+.talkspace {
+  margin-top: 80px;
+}
+.sendingMsg {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+.sendingTime {
+  font-size: 8px;
+  padding-right: 5px;
+}
+.sendingText {
+  font-size: 18px;
+  background-color: aqua;
+  border-radius: 15px 0px 15px 15px;
+  padding: 8px 12px;
+}
+.comingMsg {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-bottom: 25px;
+}
+.comingTime {
+  font-size: 8px;
+  padding: 0px 5px;
+}
+.comingText {
+  font-size: 18px;
+  background-color: aqua;
+  border-radius: 0px 15px 15px 15px;
+  padding: 8px 12px;
+}
+.unreadNoti {
+  font-size: 16px;
+  color: tomato;
+  padding: 0px 5px;
+  text-align: center;
+}

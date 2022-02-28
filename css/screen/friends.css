@@ -1,0 +1,8 @@
+.todayStar {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+.todayStar_column-text {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 15px;
+  font-weight: 600;
+}

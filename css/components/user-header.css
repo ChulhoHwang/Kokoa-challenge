@@ -1,0 +1,22 @@
+.user-header {
+  display: flex;
+  width: 100%;
+  margin-bottom: var(--components-space);
+  align-items: center;
+  padding-top: 40px;
+}
+.user-header_column {
+  display: flex;
+  width: 50%;
+}
+.user-header_column:first-child {
+  font-weight: 600;
+  font-size: 30px;
+  justify-content: flex-start;
+}
+.user-header_column:last-child {
+  justify-content: flex-end;
+}
+.user-header_column i {
+  margin: 0px 10px;
+}
